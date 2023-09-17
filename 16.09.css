@@ -1,0 +1,192 @@
+body {background-color:whitesmoke;}
+
+
+div.bloczki{
+    height:auto;
+    width:auto;
+    max-width:440px;
+    max-height:880px;
+    min-width:220px;
+    min-height:440px;
+    padding:10px;
+    background-color:black;
+    border-radius:20px;
+    background-image: url("https://www.werandacountry.pl/data/articles/1665487793_mały-piesek1.jpg");
+    margin-bottom:10px;
+    float:left;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+
+ 
+
+
+}
+
+div#blok1{
+    background-color:aqua;
+    text-align:center;
+    border-radius:20px;
+    width:200px;
+    height:200px;
+   float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/05/09/Hexagonal-line-pattern-vector-Graphics-4073679-1-580x419.jpg");
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+    
+    
+    
+
+}
+div#blok2{
+    background-color:pink;
+    text-align:center;
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    background-image:url("https://as1.ftcdn.net/v2/jpg/01/06/98/04/1000_F_106980476_3VDRLFWwgRCUcYQjbKUfgBPEkwrWL23E.jpg"); box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+    
+    
+    
+
+}
+
+
+div#blok3 {
+    background-color:plum;
+    text-align:center;
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://i.pinimg.com/736x/ee/77/a1/ee77a1ba754aa187b755985c3a976328--background-vintage-geometric-background.jpg");
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+
+}
+
+div#blok4{
+    background-color:palegoldenrod;
+    text-align:center;
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:10px;
+    display:flex;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYer0piz8eHneX9wzbN5gH0DIq-jeMioINvBVxYCxTEtkdo4CZ9WlXQLj7BOSvBiP4_4&usqp=CAU");
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+    
+
+}
+
+div.prawa {
+    height:auto;
+    width:auto;
+    max-width:400px;
+    min-width:400px;
+    background-color:red;
+    display: flex;
+    justify-content:flex-end;
+    border-radius:20px;
+    background-image: url("https://www.werandacountry.pl/data/articles/1665487793_mały-piesek1.jpg");
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    padding:20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+    color:white;
+    text-align:center
+    
+    
+
+}
+
+
+
+div#prawa1 {
+    background-color:aliceblue;
+    border-radius:20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.8); 
+    text-align:center;
+    font-family:courier;
+    font-size:13px;
+    max-width: 400px;
+    min-width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+    
+
+
+.btn {
+    background-color: #98b366;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align:center;
+    font-size: 16px;
+    font-family:courier;
+    margin: 10px 10px;
+    transition: 0.3s;
+    BORDER-RADIUS:10px;
+    border: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.8); 
+
+
+    
+    
+}
+.btn:hover {
+    background-color:rgb(46, 46, 46);
+    color: rgb(254, 254, 254);
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Reguluje odstęp od tekstu powyżej przycisku */
+}
+
+/* Pozostała zawartość CSS */
+
+.bloczki {
+    height: auto;
+    max-width: 440px;
+    min-width: 220px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Wyśrodkowanie w pionie */
+    flex-wrap: wrap; /* Dopuszczamy zawijanie elementów na wąskich ekranach */
+}
+
+.container2 {
+    max-width:440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Wyśrodkowanie w pionie */
+    flex-wrap: wrap; /* Dopuszczamy zawijanie elementów na wąskich ekranach */
+}
